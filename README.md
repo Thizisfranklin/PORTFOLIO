@@ -1,4 +1,4 @@
-# Franklin Osualaaham — Personal Portfolio
+# Personal Portfolio
 
 A responsive portfolio built using plain HTML, CSS and a little JavaScript. No paid builder, Node.js dependencies, or backend required.
 
