@@ -1,22 +1,17 @@
 # Franklin Osualaaham — Portfolio
 
-A responsive, static portfolio with all required assets included. No build tools or dependencies needed.
+Responsive static portfolio hosted on Vercel. No build tools or runtime dependencies are required.
 
-## Deploy to Vercel
-1. Unzip this package.
-2. Upload **all contents** of the folder into the root of your GitHub PORTFOLIO repository. Keep the assets folder intact. Replace the old index.html and styles.css.
-3. In Vercel, import the repository (or redeploy the connected project).
-4. Framework preset: Other. Build command: leave empty. Output directory: leave empty. Root directory: repository root.
-5. Deploy. Open the resulting URL and click Resume to check the PDF opens.
+## Local preview
+Run `python3 -m http.server 8000` from this directory and visit http://localhost:8000.
 
-## Preview locally
-Open index.html, or run `python -m http.server 8000` inside this folder and visit http://localhost:8000.
+## Deployment
+The Vercel project should use the repository root, framework preset **Other**, and no build command. When Git integration is enabled, pushing to the configured production branch starts a new deployment. Otherwise, redeploy the latest commit in Vercel.
 
-## Resume
-The actual PDF lives at assets/Franklin_Osualaaham_Resume.pdf. Phone number removed from the PDF content. This is a public copy of the uploaded resume, not the final rewritten resume with a portfolio URL. Once the Vercel URL is known, create the agreed final resume and replace this asset with its public phone-free version at the same path.
+## Content and contact
+Update `index.html` for project descriptions and skills; `styles.css` controls the visual design. Keep in-progress projects clearly labeled and distinguish estimated opportunities from realized revenue. LinkedIn is the only direct contact channel. Do not add a public email address, phone number, contact form, or résumé download.
 
-## Project links
-GitHub and live project links were obtained from public repositories. The capstone appears as in progress without a link because its team repository URL has not yet been supplied. Add that link when available. Agent Lens is explicitly marked pending/design and planning.
+The previous résumé file has been removed from the current tree. It may still be accessible in Git history or prior deployment URLs; this change does not rewrite history.
 
 ## Images
-See credits.html for the Anfield photo attribution. The other visuals are original HTML/SVG illustrations. All assets are local; there are no external image or font dependencies.
+See `credits.html` for image attribution. Images are local; no external fonts or image dependencies are required.
